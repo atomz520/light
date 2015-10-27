@@ -24,3 +24,20 @@
 	outline: solid black 1px;
 	background:#fff;
 }
+
+.gadget {
+	width:10px;
+	height:10px;
+	position: absolute;
+	top:0;
+}
+
+.rotate{
+	background:#FF0;
+}
+.origin{
+	background:#F0F;
+}
+.resize{
+	background:#0FF;
+}

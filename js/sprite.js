@@ -57,6 +57,7 @@ var sprite = {
 						containment: "parent",
 						drag: function() {
 							spriteObject.calculateNativeFromDisplay();
+							selectionGadget.setSelected(spriteObject);
 						}
 					}
 				);
