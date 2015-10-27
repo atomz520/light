@@ -6,3 +6,15 @@
 	background-color: #BBB;
 	height: 70vh;
 }
+
+.canvasHolder {
+	height:70vh;
+	background:#eee;
+	position: relative;
+}
+
+.canvas {
+	position: relative;
+	outline: solid black 1px;
+	background:#fff;
+}
