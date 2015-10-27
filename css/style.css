@@ -1,5 +1,11 @@
 .topbar {
 	background-color: #BBB;
+	height: 8vh;
+}
+
+.timeline {
+	background-color: #BBB;
+	height: 20vh;
 }
 
 .sidebar {

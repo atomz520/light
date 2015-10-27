@@ -11,23 +11,30 @@
 
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/sprite.css" />
     </head>
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12 well topbar">            
-                    <h1>
+                <div class="col-md-12 topbar">  
+                        <h2>          
                         Light Animator
                         <small>
                             Lighter is brighter;
                         </small>
-                    </h1>
+                        </h2>
                 </div>
-                <div class="col-sm-1 well sidebar">Menu</div>
+                <div class="col-md-12 timeline">            
+                </div>
+
+                <div class="col-sm-2 well sidebar">Menu</div>
                 <div class="col-sm-8 canvasHolder" id="canvasHolder">
                     <div class="canvas" id="canvas">
 
                     </div>
+                </div>
+                <div class="col-sm-2 well sidebar">
+                    <button class="btn btn-default" id="addItem">Add</button>
                 </div>
             </div>
         </div>
@@ -37,6 +44,7 @@
         <!--<link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css" />-->
         <script src="js/canvas.js"></script>
         <script src="js/sprite.js"></script>
+        <script src="js/spritemanager.js"></script>
         <script src="js/animationmanager.js"></script>
         <script src="js/script.js"></script>
     </body>
