@@ -14,6 +14,7 @@ var spriteManager = {
 		this._sprites.push(newSprite);
 		//Add object to canvas
 		canvas.$canvas.append(newSprite.toHTML());
+		newSprite.initDraggable();
 		//Update sprite display properties
 		newSprite.calculateDisplayFromNative(this._percentage);
 	},

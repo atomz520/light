@@ -2,5 +2,6 @@
 	width:10px;
 	height:10px;
 	background:#f00;
-	position:relative;
+	position:absolute;
+	cursor: move;
 }
